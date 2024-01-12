@@ -1,5 +1,6 @@
 import './index.css';
 import './assets/styles/typography.css';
+import './assets/styles/common.css';
 import './app';
 
 // import WinApi from 'winapinode';

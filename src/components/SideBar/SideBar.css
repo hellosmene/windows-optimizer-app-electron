@@ -1,0 +1,21 @@
+.side-bar {
+  background-color: var(--brand-secondary);
+  padding: var(--padding-lg);
+  width: 20%;
+  height: 100%;
+}
+
+.side-bar .side-bar__top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+}
+
+.side-bar .side-bar__nav-stack {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-sm);
+  align-items: flex-start;
+  align-self: stretch;
+}

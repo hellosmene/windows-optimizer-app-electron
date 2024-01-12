@@ -38,6 +38,20 @@
 
     --border-radius-sm: 8px;
     --border-radius-md: 12px;
+
+    /* Fonts */ 
+
+    --caption1: 400 normal 12px/16px 'Inter-Regular', sans-serif;
+    --caption1-bold: 700 normal 12px/16px 'Inter-SemiBold', sans-serif;
+
+    --subheadline: 400 normal 15px/20px 'Inter-Regular', sans-serif;
+    --subheadline-bold: 700 normal 15px/20px 'Inter-Semibold', sans-serif;
+
+    --callout: 400 normal 16px/21px 'Inter-Regular', sans-serif;
+    --callout-bold: 700 normal 16px/21px 'Inter-Semibold', sans-serif;
+
+    --footnote: 400 normal 14px/18px 'Inter-Regular', sans-serif;
+    --footnote-bold: 700 normal 14px/18px 'Inter-Semibold', sans-serif;
 }
 
 body {
@@ -45,4 +59,28 @@ body {
     color: var(--brand-white);
     line-height: 24px;
     font-family: 'Inter-Regular', sans-serif;
+}
+
+.subheadline {
+    font: var(--subheadline);
+}
+
+.subheadline.subheadline--bold {
+    font: var(--subheadline-bold);
+}
+
+.callout {
+    font: var(--callout);
+}
+
+.callout.callout--bold {
+    font: var(--callout-bold);
+}
+
+.footnote {
+    font: var(--footnote);
+}
+
+.footnote.footnote--bold {
+    font: var(--footnote-bold);
 }
