@@ -1,0 +1,51 @@
+/* @font-face {
+  font-family: 'Inter';
+  src: url();
+}
+
+:root {
+  --brand-primary: #111315;
+  --brand-secondary: #1a1d1f;
+  --brand-white: #ffffff;
+
+  --btn-fill-primary: #fcfcfc;
+  --btn-text-primary: #272b39;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter';
+  font-size: 16px;
+  line-height: 21px;
+  color: var(--brand-white);
+}
+
+p {
+  font-size: 12px;
+  line-height: 16px;
+}
+
+h3 {
+  font-size: 20px;
+  line-height: 25px;
+}
+
+h2 {
+  font-size: 22px;
+  line-height: 28px;
+}
+
+h1 {
+  font-size: 28px;
+  line-height: 34px;
+}
+
+button {
+  color: var(--btn-text-primary);
+} */
+
+body {
+  margin: 0;
+  user-select: none;
+  /* -webkit-app-region: drag; */
+}

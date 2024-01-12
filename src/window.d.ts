@@ -1,0 +1,1 @@
+// declare const WinApi: typeof import('winapinode').default;

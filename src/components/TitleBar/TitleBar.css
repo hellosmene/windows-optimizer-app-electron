@@ -1,0 +1,19 @@
+.title-bar {
+    width: 100%;
+    background-color: var(--brand-primary);
+    display: flex;
+    justify-content: flex-end;
+
+    /* TODO -> Add the possibility to drag it */
+}
+
+.title-bar__item {
+    padding-inline: 1em; /* To change according to a CSS variable */
+    padding-block: .25em;
+    background-color: inherit;
+    cursor: pointer;
+}
+
+.title-bar__item:hover {
+    background-color: var(--brand-secondary);
+}
