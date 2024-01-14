@@ -1,0 +1,43 @@
+.table {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  width: 100%;
+}
+
+.table .table__title {
+  margin-bottom: var(--gap-lg);
+}
+
+.table .table__row-container {
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+  position: relative;
+}
+
+.table__row-container > *:nth-child(even) {
+  background-color: rgba(17, 19, 21, 0.50);
+}
+
+.table__row-container > *:nth-child(odd) {
+  background-color: var(--brand-secondary);
+}
+
+.table .table__row-container > *:nth-child(1) {
+  font: var(--subheadline-bold);
+  position: sticky;
+  top: 0;
+}
+
+.table .table__row-container::-webkit-scrollbar {
+  display: none; /* Make a custom scrollbar */
+}
+
+/* .table__header, .table__row-container > * {
+  padding: var(--padding-md) var(--padding-lg);
+}
+
+.table__row-container > *:nth-child(even) {
+  background-color: rgba(17, 19, 21, 0.50);
+} */

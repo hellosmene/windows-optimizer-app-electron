@@ -1,0 +1,39 @@
+.toggle {
+  position: relative;
+  width: 51px;
+  height: 31px;
+  border-radius: 51px; /* same as width */
+
+  cursor: pointer;
+  background-color: #7878805C;
+
+  transition: background-color ease .25s;
+}
+
+.toggle::after {
+  content: "";
+  position: absolute;
+  
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  
+  top: 2px;
+  left: 2px;
+
+  background-color: #FFFFFF;
+  transition: transform ease .25s;
+}
+
+.toggle:has(.toggle__input:checked) {
+  background-color: var(--accent-green);
+}
+
+.toggle:has(.toggle__input:checked)::after {
+  transform: translateX(20px);
+  box-shadow: #7878805C 0px 0px 8px;
+}
+
+.toggle .toggle__input {
+  display: none;
+}

@@ -1,0 +1,32 @@
+.system-info-card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-md);
+  align-self: flex-start;
+}
+
+.system-info-card .system-info-card__top {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-lg);
+}
+
+.system-info-card .system-info-card__icon-wrapper {
+  padding: var(--padding-xxs);
+  background-color: var(--btn-fill-primary);
+  border-radius: var(--border-radius-sm);
+  box-shadow: var(--btn-inner-shadow);
+  width: 36px;
+  height: 36px;
+}
+
+.system-info-card .system-info-card__list {
+  padding-left: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.system-info-card .system-info-card__item {
+  /* user-select: text; */
+}

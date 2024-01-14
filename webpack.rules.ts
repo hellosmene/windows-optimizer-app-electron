@@ -39,4 +39,8 @@ export const rules: Required<ModuleOptions>['rules'] = [
       },
     },
   },
+  {
+    test: /\.svg$/,
+    use: ['@svgr/webpack', 'url-loader']
+  },
 ];

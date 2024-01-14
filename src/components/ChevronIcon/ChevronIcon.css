@@ -1,16 +1,21 @@
 .chevron-icon {
   width: 24px;
   height: 24px;
+  cursor: pointer;
+  transition: transform .25s ease;
 }
 
 .chevron-icon.chevron-icon--left {
   transform: rotate(-180deg);
+  -webkit-transform: rotate(-180deg);
 }
 
 .chevron-icon.chevron-icon--top {
   transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
 }
 
 .chevron-icon.chevron-icon--bottom {
   transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
 }

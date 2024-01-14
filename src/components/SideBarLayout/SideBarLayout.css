@@ -3,3 +3,11 @@
   flex-direction: row;
   height: 100%;
 }
+
+.side-bar-layout .side-bar-layout__right {
+  width: 100%;
+  padding: var(--padding-lg);
+  overflow: hidden;
+
+  display: flex;
+}

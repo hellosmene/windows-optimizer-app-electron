@@ -1,6 +1,6 @@
 import { NavLink } from 'react-router-dom';
 
-import ChevronIcon from "../ChevronIcon/ChevronIcon";
+import ChevronIcon from '../ChevronIcon/ChevronIcon';
 import './NavItem.css';
 
 type NavItemProps = {

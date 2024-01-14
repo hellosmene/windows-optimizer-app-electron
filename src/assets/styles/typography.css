@@ -1,86 +1,113 @@
 @font-face {
-    font-family: 'Inter-Regular';
-    src: url('../fonts/Inter-Regular.ttf');
+  font-family: 'Inter-Regular';
+  src: url('../fonts/Inter-Regular.ttf');
 }
 
 @font-face {
-    font-family: 'Inter-SemiBold';
-    src: url('../fonts/Inter-SemiBold.ttf');
+  font-family: 'Inter-SemiBold';
+  src: url('../fonts/Inter-SemiBold.ttf');
 }
 
 :root {
-    /* Colors */
+  /* Colors */
 
-    --brand-primary: #111315;
-    --brand-secondary: #1A1D1F;
-    --brand-accent: #FFFF00;
-    --brand-white: #FFFFFF;
-    --btn-fill-primary: #272B30;
-    --btn-text-primary: #FCFCFC;
-    --field-fill-primary: #111315;
-    --field-line-primary: #272B30;
-    --field-label-primary: #6F787E;
-    --field-text-primary: #FCFCFC;
-    --accent-success: #32D74B;
-    --accent-error: #FF5D5D;
+  --brand-primary: #111315;
+  --brand-secondary: #1A1D1F;
+  --brand-accent: #FFFF00;
+  --brand-white: #FFFFFF;
+  --btn-fill-primary: #272B30;
+  --btn-text-primary: #FCFCFC;
+  --field-fill-primary: #111315;
+  --field-line-primary: #272B30;
+  --field-label-primary: #6F787E;
+  --field-text-primary: #FCFCFC;
+  --accent-green: #32D74B;
+  --accent-red: #FF5D5D;
 
-    /* Spacing */
+  /* Spacing */
 
-    --gap-sm: 8px;
-    --gap-md: 12px;
-    --gap-lg: 14px;
+  --gap-sm: 8px;
+  --gap-md: 12px;
+  --gap-lg: 14px;
+  --gap-xlg: 18px;
+  --gap-xxlg: 32px;
 
-    --padding-xxs: 6px;
-    --padding-xs: 8px;
-    --padding-sm: 12px;
-    --padding-md: 16px;
-    --padding-lg: 24px;
+  --padding-xxs: 6px;
+  --padding-xs: 8px;
+  --padding-sm: 12px;
+  --padding-md: 16px;
+  --padding-lg: 24px;
 
-    --border-radius-sm: 8px;
-    --border-radius-md: 12px;
+  --border-radius-xs: 6px;
+  --border-radius-sm: 8px;
+  --border-radius-md: 12px;
+  --border-radius-lg: 16px;
 
-    /* Fonts */ 
+  /* Fonts */ 
 
-    --caption1: 400 normal 12px/16px 'Inter-Regular', sans-serif;
-    --caption1-bold: 700 normal 12px/16px 'Inter-SemiBold', sans-serif;
+  --caption2: 400 normal 11px/13px 'Inter-Regular', sans-serif;
+  --caption2-bold: 700 normal 11px/13px 'Inter-SemiBold', sans-serif;
 
-    --subheadline: 400 normal 15px/20px 'Inter-Regular', sans-serif;
-    --subheadline-bold: 700 normal 15px/20px 'Inter-Semibold', sans-serif;
+  --caption1: 400 normal 12px/16px 'Inter-Regular', sans-serif;
+  --caption1-bold: 700 normal 12px/16px 'Inter-SemiBold', sans-serif;
 
-    --callout: 400 normal 16px/21px 'Inter-Regular', sans-serif;
-    --callout-bold: 700 normal 16px/21px 'Inter-Semibold', sans-serif;
+  --footnote: 400 normal 13px/17px 'Inter-Regular', sans-serif;
+  --footnote-bold: 700 normal 13px/17px 'Inter-SemiBold', sans-serif;
 
-    --footnote: 400 normal 14px/18px 'Inter-Regular', sans-serif;
-    --footnote-bold: 700 normal 14px/18px 'Inter-Semibold', sans-serif;
+  --subheadline: 400 normal 15px/20px 'Inter-Regular', sans-serif;
+  --subheadline-bold: 700 normal 15px/20px 'Inter-SemiBold', sans-serif;
+
+  --callout: 400 normal 16px/21px 'Inter-Regular', sans-serif;
+  --callout-bold: 700 normal 16px/21px 'Inter-SemiBold', sans-serif;
+
+  /* Shadow */
+
+  --btn-inner-shadow: 0px 1px 1px 0px rgba(255, 255, 255, 0.11) inset, 0px -2px 1px 0px rgba(0, 0, 0, 0.40) inset;
 }
 
 body {
-    background-color: var(--brand-primary);
-    color: var(--brand-white);
-    line-height: 24px;
-    font-family: 'Inter-Regular', sans-serif;
+  background-color: var(--brand-primary);
+  color: var(--brand-white);
+  line-height: 24px;
+  font-family: 'Inter-Regular', sans-serif;
 }
 
-.subheadline {
-    font: var(--subheadline);
+.caption2 {
+  font: var(--caption2);
 }
 
-.subheadline.subheadline--bold {
-    font: var(--subheadline-bold);
+.caption2-bold {
+  font: var(--caption2-bold);
 }
 
-.callout {
-    font: var(--callout);
+.caption1 {
+  font: var(--caption1);
 }
 
-.callout.callout--bold {
-    font: var(--callout-bold);
+.caption1-bold {
+  font: var(--caption1-bold);
 }
 
 .footnote {
-    font: var(--footnote);
+  font: var(--footnote);
 }
 
-.footnote.footnote--bold {
-    font: var(--footnote-bold);
+.footnote-bold {
+  font: var(--footnote-bold);
+}
+
+.subheadline {
+  font: var(--subheadline);
+}
+
+.subheadline-bold {
+  font: var(--subheadline-bold);
+}
+
+.callout {
+  font: var(--callout);
+}
+
+.callout-bold {
+  font: var(--callout-bold);
 }

@@ -4,14 +4,21 @@
   background-color: var(--btn-fill-primary);
   color: var(--btn-text-primary);
   font: var(--footnote-bold);
-  box-shadow: 0px 1px 1px 0px rgba(255, 255, 255, 0.11) inset, 0px -2px 1px 0px rgba(0, 0, 0, 0.40) inset;
+  box-shadow: var(--btn-inner-shadow);
   cursor: pointer;
   font-size: 14px;
   font-style: normal;
 
   transition: opacity .2s ease;
+  -webkit-transition: opacity .2s ease;
 }
 
 .clickable-card:active {
   opacity: 0.3;
+}
+
+.card {
+  background-color: var(--brand-secondary);
+  padding: var(--padding-md);
+  border-radius: var(--border-radius-md);
 }

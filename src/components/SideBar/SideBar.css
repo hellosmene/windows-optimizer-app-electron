@@ -1,8 +1,7 @@
 .side-bar {
   background-color: var(--brand-secondary);
   padding: var(--padding-lg);
-  width: 20%;
-  height: 100%;
+  width: 30%;
 }
 
 .side-bar .side-bar__top {

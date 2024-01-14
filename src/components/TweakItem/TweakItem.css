@@ -1,0 +1,29 @@
+.tweak-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.tweak-item .tweak-item__top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tweak-item .tweak-item__description {
+  color: #ACACAC;
+  font-feature-settings: 'case' on;
+}
+
+.tweak-item .tweak-item__status-on {
+  color: var(--accent-green);
+}
+
+.tweak-item .tweak-item__status-off {
+  color: #36393C;
+}
+
+.tweak-item .tweak-item__status-on, .tweak-item .tweak-item__status-off {
+  transition: color ease .25s;
+}

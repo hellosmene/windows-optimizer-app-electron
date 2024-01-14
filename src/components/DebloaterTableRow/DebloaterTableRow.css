@@ -1,0 +1,27 @@
+.debloater-table-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* .debloater-table-row .debloater-table-row__field-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-xxlg);
+  width: 70%;
+} */
+
+.table-row .table-row__id {
+  width: 15%;
+}
+
+.table-row .table-row__name {
+  width: 40%;
+}
+
+.debloater-table-row .debloater-table-row__id,
+.debloater-table-row .debloater-table-row__name {
+  font-feature-settings: 'case' on;
+}
